@@ -5,6 +5,7 @@ import org.springframework.data.annotation.Id;
 public class Score {
 
     @Id
+    @Entity
     private Integer id;
 
     private int vitorias, derrotas, empates;
@@ -59,5 +60,10 @@ public class Score {
 
     public void incrementaEmpates() {
         this.empates++;
+    }
+
+    
+    public Score reset() {
+        return new Score();
     }
 }
