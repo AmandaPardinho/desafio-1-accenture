@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjetodoisApplication<projetodois>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rps.projetodois.ProjetodoisApplication",
+            "projectName": "projetodois",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

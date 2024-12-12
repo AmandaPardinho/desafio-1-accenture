@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>Hello World! Estamos na página de resultados!</h1>
+        <br>
+        <h2>Você escolheu: <span th:text="${aEscolha}"></span></h2>
+        <br>
+        <h3>O resultado de sua escolha foi: <span th:text="${saida}"></span></h3>
+        Placar: vitórias: <span th:text="${score.vitorias}"></span> empates: <span th:text="${score.empates}"></span> derrotas: <span th:text="${score.derrotas}"></span>
+        <br>
+        <br>
+        <button>Reiniciar Contador</button>
+    </body>
+</html>
